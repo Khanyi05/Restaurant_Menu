@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div>
+    <header>
+      <h1>Tasty Recipes</h1>
+      <nav>
+        <ul>
+          <li><a href="#home-section">Home</a></li>
+          <li><a href="#about-section">About Us</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+        </ul>
+      </nav>
+      <input type="text" id="recipe-search" placeholder="Search for a recipe">
+      <button id="search-btn" onclick="findRecipes()">Search</button>
+    </header>
+    <main>
+      <section id="recipes-overview">
+        <h2>Recipe Overview</h2>
+      </section>
+      <section id="recipe-info">
+        <h2>Recipe Information</h2>
+      </section>
+    </main>
+    <footer>
+      <section id="about-section">
+        <h3>About Us</h3>
+        <p>Tasty Recipes is a startup dedicated to bringing you the best and most delicious recipes from around the world. Founded in 2023, our mission is to make cooking easy and enjoyable for everyone.</p>
+      </section>
+      <section id="contact-section">
+        <h3>Contact Us</h3>
+        <p>Email: info@tastyrecipes.co.za</p>
+        <p>Phone: +27 12 456 7890</p>
+        <p>Address: 587 Reginald Street, Nina Park, 0118</p>
+      </section>
+      <p>&copy; 2024 Tasty Recipes. All rights reserved.</p>
+    </footer>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>

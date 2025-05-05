@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  background: url('../images/header-image.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#recipe-search {
+  padding: 0.5rem;
+  width: 80%;
+  max-width: 500px;
+  margin-top: 1rem;
+}
+
+#search-btn {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: #A9A9A9;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+#recipes-overview, #recipe-info {
+  width: 45%;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#recipes-overview h2, #recipe-info h2 {
+  border-bottom: 2px solid #A9A9A9;
+  padding-bottom: 0.5rem;
+}
+
+.recipe-card {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.recipe-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.recipe-link:hover {
+  text-decoration: underline;
+}
+
+.recipe-link.selected {
+  color: #A9A9A9;
+}
+
+#recipe-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+#recipe-info img {
+  max-width: 100%;
+  height: auto;
+}
+
+.checked-off {
+  text-decoration: line-through;
+  color: gray;
+}
+
+footer {
+  background: url('../images/footer-image.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: small;
+}
+
+footer section {
+  margin-bottom: 1rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #A9A9A9;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.hidden-section {
+  display: none;
+}
+
+.no-results {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
